@@ -38,6 +38,7 @@ p {
   font-family: Dosis, sans-serif;
   text-decoration: none;
   font-size: 1rem;
+  color: #512200;
 }
 
 footer {
@@ -57,6 +58,7 @@ dt {
   text-align: left;
   display: inline;
   font-size: .875rem;
+  color: #512200;
 }
 
 dd {
@@ -64,4 +66,5 @@ dd {
   text-align: right;
   display: inline;
   font-size: .875rem;
+  color: #512200;
 }
