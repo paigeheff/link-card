@@ -12,9 +12,10 @@ html {
 body {
   background-color: #dcd4cd;
   border-radius: 3px;
+  border-color: #9a816d;
   padding: .4em .75em .5em;
   text-decoration: none;
-  color: #512200
+  color: #512200;
 }
 
 .link-card {
