@@ -16,6 +16,7 @@ body {
   padding: .4em .75em .5em;
   text-decoration: none;
   color: #512200;
+  position: absolute;
 }
 
 .link-card {
@@ -36,6 +37,7 @@ body {
 p {
   font-family: Dosis, sans-serif;
   text-decoration: none;
+  font-size: 1rem;
 }
 
 footer {
@@ -43,21 +45,23 @@ footer {
   font-family: Dosis, sans-serif;
   font-size: 1.125rem;
   color: #fff;
-  display: inline-block;
   background-color: #785439;
   border-radius: 8px;
   border-width: 3px;
   text-align: center;
+  display: inline-block;
 }
 
 dt {
   text-decoration: none;
   text-align: left;
   display: inline;
+  font-size: .875rem;
 }
 
 dd {
   font-style: italic;
   text-align: right;
   display: inline;
+  font-size: .875rem;
 }
