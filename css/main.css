@@ -1,5 +1,5 @@
 html {
-  line-height: 1.5rem;
+  line-height: 1.5;
   font-family: Georgia;
   box-sizing: border-box;
   background-color: #f0eee8;
@@ -9,18 +9,16 @@ html {
   box-sizing: inherit;
 }
 
-body {
+.link-card {
+  text-decoration: none;
   background-color: #dcd4cd;
   border-radius: 3px;
   border-color: #9a816d;
-  padding: .4em .75em .5em;
-  text-decoration: none;
+  padding: 1em;
   color: #512200;
-  position: absolute;
-}
-
-.link-card {
-  text-decoration: none;
+  display: block;
+  border-width: 3px;
+  border-style: solid;
 }
 
 .link-card:hover {
@@ -31,7 +29,10 @@ body {
   font-family: Dosis, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
+  line-height: 1.5rem;
   color: #512200;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 p {
@@ -42,6 +43,10 @@ p {
 }
 
 footer {
+  text-align: center;
+}
+
+.btn {
   font-weight: bold;
   font-family: Dosis, sans-serif;
   font-size: 1.125rem;
@@ -49,22 +54,30 @@ footer {
   background-color: #785439;
   border-radius: 8px;
   border-width: 3px;
-  text-align: center;
+  padding: .4em .75em .5em;
   display: inline-block;
+
 }
 
+.list {
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
+  padding: 1em 0;
+}
 dt {
   text-decoration: none;
   text-align: left;
-  display: inline;
+  display: inline-block;
   font-size: .875rem;
   color: #512200;
+  width: 45%;
 }
 
 dd {
   font-style: italic;
-  text-align: right;
-  display: inline;
+  display: inline-block;
   font-size: .875rem;
   color: #512200;
+  width: 45%;
+  margin: 0;
 }
